@@ -8,6 +8,9 @@ import java.rmi.registry.Registry;
 
 /**
  * Hello world!
+ * rmi server
+ * @author chenguang.lin
+ * @date 2021-12-15
  */
 public class App {
 
