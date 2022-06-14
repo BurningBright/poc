@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+    <task:annotation-driven executor="xmlExecutor"/>
+    <task:executor
+            id="xmlExecutor"
+            pool-size="5-25"
+            queue-capacity="10"
+            keep-alive="120"
+            rejection-policy="CALLER_RUNS"/>
+
+    <bean class="cn.burningbright.poc.asynstart.annotation.AsyncDemo"/>
+
+</beans>

@@ -12,5 +12,6 @@
     <modules>
         <module>httpclient</module>
         <module>log4j</module>
+        <module>spring_async</module>
     </modules>
 </project>
