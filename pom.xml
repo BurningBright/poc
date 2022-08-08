@@ -14,5 +14,6 @@
         <module>log4j</module>
         <module>spring_async</module>
         <module>swagger_in_jar</module>
+        <module>spring_mvc_start</module>
     </modules>
 </project>
