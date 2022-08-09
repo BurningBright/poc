@@ -7,9 +7,6 @@ package cn.burningbright.poc;
 
 import cn.burningbright.poc.config.AppConfig;
 import cn.burningbright.poc.config.RootConfig;
-import org.springframework.web.context.WebApplicationContext;
-import org.springframework.web.servlet.DispatcherServlet;
-import org.springframework.web.servlet.FrameworkServlet;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -44,11 +41,11 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
 
     // 若你想定制化父类的一些默认行为  这里都是可以复写父类的protected方法的~~~~
     // Spring MVC也推荐你这么干~
-    @Override
+    /*@Override
     protected FrameworkServlet createDispatcherServlet(WebApplicationContext servletAppContext) {
         DispatcherServlet dispatcherServlet = (DispatcherServlet) super.createDispatcherServlet(servletAppContext);
 //         dispatcherServlet.setDetectAllHandlerAdapters(false);
         return dispatcherServlet;
-    }
+    }*/
 
 }

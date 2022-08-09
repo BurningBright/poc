@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
  * @author chenguang.lin
  * @date 2022-08-08
  */
-@ComponentScan(value = "cn.burningbright.poc", useDefaultFilters = false,
+@ComponentScan(value = "cn.burningbright.poc.controller", useDefaultFilters = false,
         includeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class, ControllerAdvice.class, RestControllerAdvice.class})}
 )
 @Configuration
