@@ -15,10 +15,18 @@ import org.springframework.web.servlet.view.JstlView;
  * @author chenguang.lin
  * @date 2022-08-08
  */
-@ComponentScan(value = "cn.burningbright.poc", excludeFilters = {
-        @ComponentScan.Filter(type = FilterType.ANNOTATION, classes = {Controller.class, ControllerAdvice.class, RestControllerAdvice.class}),
-        @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {AppConfig.class})
-})
+@ComponentScan(value = "cn.burningbright.poc",
+        excludeFilters = {
+                @ComponentScan.Filter(
+                        type = FilterType.ANNOTATION,
+                        classes = {
+                                Controller.class,
+                                ControllerAdvice.class,
+                                RestControllerAdvice.class}),
+                @ComponentScan.Filter(
+                        type = FilterType.ASSIGNABLE_TYPE,
+                        classes = {AppConfig.class})
+        })
 @Configuration
 public class RootConfig {
 

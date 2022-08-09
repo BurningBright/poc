@@ -8,7 +8,7 @@ import java.io.IOException;
  * @author chenguang.lin
  * @date 2022-08-08
  */
-//@WebServlet(urlPatterns = "/hello")
+@WebServlet(urlPatterns = "/hello")
 public class HelloServlet extends HttpServlet {
 
     @Override
