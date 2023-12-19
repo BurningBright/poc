@@ -1,0 +1,6 @@
+test: a,b,c,d
+car: 红色|法拉利
+
+#testMap: {pccId: 99999 , cptCode: "99999", cptConfigName: "体验家问卷" , showCptConfigName: "1", style: "11970", data: "1"}
+
+#carMapping: {"77": [{"name": "123", "color": "456"}], "88": [{"name": "124", "color": "457"}]}
