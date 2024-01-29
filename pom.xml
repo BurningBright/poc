@@ -17,5 +17,6 @@
         <module>swagger_in_jar</module>
         <module>thread_safe</module>
         <module>value_inject</module>
+        <module>springboot-cache</module>
     </modules>
 </project>
