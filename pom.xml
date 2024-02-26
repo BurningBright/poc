@@ -13,10 +13,11 @@
         <module>httpclient</module>
         <module>log4j</module>
         <module>spring_async</module>
+        <module>spring_event</module>
         <module>spring_mvc_start</module>
+        <module>springboot-cache</module>
         <module>swagger_in_jar</module>
         <module>thread_safe</module>
         <module>value_inject</module>
-        <module>springboot-cache</module>
     </modules>
 </project>
